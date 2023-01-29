@@ -16,7 +16,6 @@ import Info from "./components/Info.js"
 import Footer from "./components/Footer.js"
 import Home from "./components/Home.js"
 
-/* import Header from './components/Header' */
 
 function App() {
 

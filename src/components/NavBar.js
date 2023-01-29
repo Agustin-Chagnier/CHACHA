@@ -1,5 +1,6 @@
 import React from "react";
-import {NavLink} from "react-router-dom"
+import {NavLink} from "react-router-dom";
+import "./NavBar.css";
 
 
 
@@ -10,11 +11,11 @@ const Navbar = ({links}) => {
 
 
     return (
-        <header>
+        <header id="navbar_header">
             <div>
                 <NavLink to="/">
                 
-                <div>La Chacha</div>
+                <div id="titulo">La Chacha</div>
 
                 </NavLink>
             </div>
