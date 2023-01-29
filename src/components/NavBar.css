@@ -1,20 +1,41 @@
 @import url('https://fonts.googleapis.com/css2?family=Cookie&display=swap');
 
 
-
-#navbar_header {
-    height: 20em;
+a {
+    text-decoration: none;
+    margin: 2em;
+}
+#navbar__header {
+    height: auto;
     display: flex;
     justify-content: center;
     flex-direction: row;
     
 }
 
+#env__header {
+    display: flex;
+    flex-direction: column;
+
+
+
+}
+
+#links__header {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center ;
+    
+
+}
+
 
 #titulo {
     font-family: 'Cookie', cursive;
-    font-size: 10em;
+    font-size: 7em;
     flex-direction: column;
     justify-content: center;
     text-decoration: none;
+    color: indianred;
 }

@@ -22,16 +22,16 @@ function App() {
   let [show, setShow] = useState(false)
 
     const links = [
-        { href: "/menu", name: "menu", id: 1 },
-        { href: "/historia", name: "historia", id: 2 },
-        { href: "/info", name: "info", id: 3 }
+        { href: "/menu", name: "Menu", id: 1 },
+        { href: "/historia", name: "Historia", id: 2 },
+        { href: "/info", name: "Info", id: 3 }
     ]
 
 
   return (
 
 
-
+    
   <BrowserRouter>
     <NavBar links={links}/>
     <Routes>

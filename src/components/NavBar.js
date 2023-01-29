@@ -11,7 +11,8 @@ const Navbar = ({links}) => {
 
 
     return (
-        <header id="navbar_header">
+        <header id="navbar__header">
+            <div id="env__header">
             <div>
                 <NavLink to="/">
                 
@@ -19,11 +20,12 @@ const Navbar = ({links}) => {
 
                 </NavLink>
             </div>
-            <nav>
+            <nav id="links__header">
                 {links.map((elemento, indice) => {
                     return <NavLink key={elemento.id} to={elemento.href}>{elemento.name}</NavLink>
                 })}
             </nav>
+            </div>
         </header>
         )
 }
