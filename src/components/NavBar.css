@@ -1,10 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Cookie&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cookie&family=Varela+Round&display=swap');
 
 
-a {
+.links__header--nav {
     text-decoration: none;
-    margin: 2em;
+    margin: 1em;
+    font-family: 'Varela Round', sans-serif;
+    color: rgb(93, 92, 92);
+    font-size: 1.2em;
+
+
 }
+
+a:link {
+
+    text-decoration: none;
+}
+
+
+
+
 #navbar__header {
     height: auto;
     display: flex;

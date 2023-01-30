@@ -22,7 +22,7 @@ const Navbar = ({links}) => {
             </div>
             <nav id="links__header">
                 {links.map((elemento, indice) => {
-                    return <NavLink key={elemento.id} to={elemento.href}>{elemento.name}</NavLink>
+                    return <NavLink key={elemento.id} to={elemento.href} className='links__header--nav'>{elemento.name}</NavLink>
                 })}
             </nav>
             </div>
