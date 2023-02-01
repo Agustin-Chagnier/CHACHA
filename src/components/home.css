@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Cookie&family=Varela+Round&display=swap');
+
+
+
+#home__container {
+    display: flex;
+    justify-content: center;
+    size: 19em;
+    background-color: rgb(243, 235, 235);
+    
+
+}
+
+
+
+#home__titles {
+
+    width: 100vw;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column ;
+    margin: 3em;
+    background-image: url("/public/assets/fondo-fideos.jpg");
+    background-size: 100vw;
+    background-repeat: no-repeat;
+
+
+}
+
+
+
+.home__title {
+
+    font-family: 'Varela Round', sans-serif;
+    margin: 3em;
+
+}

@@ -25,6 +25,7 @@ const Navbar = ({links}) => {
                     return <NavLink key={elemento.id} to={elemento.href} className='links__header--nav'>{elemento.name}</NavLink>
                 })}
             </nav>
+            <img src="/assets/divider.svg" />
             </div>
         </header>
         )
