@@ -1,5 +1,5 @@
 import React from "react";
-
+import Calecita from "./Calecita.js";
 
 const Menu = ({}) => {
 
@@ -7,7 +7,7 @@ const Menu = ({}) => {
 
     return (
 
-        <div>MENU SOY</div>
+        <Calecita/>
     )
 
 
