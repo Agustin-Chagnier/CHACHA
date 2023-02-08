@@ -7,11 +7,12 @@ const Footer = ({}) => {
 return (
 
     <div id="footer__container">
-        <div id="footer__icons">
-            <img src="public/assets/instagram-svgrepo-com.svg" alt="sarasa instagram"/>
-            <img src="public/assets/facebook-svgrepo-com.svg" alt="sarasa facebook" width="2em"/>
-            <img src="public/assets/whatsapp-svgrepo-com.svg" alt="sarasa whatsapp" width="2em"/>
+        <div id="footer__spaces">
+            <img className="footer__icons" src="/assets/instagram-svgrepo-com.svg" alt="sarasa instagram"/>
+            <img className="footer__icons" src="/assets/facebook-svgrepo-com.svg" alt="sarasa facebook" />
+            <img className="footer__icons" src="/assets/whatsapp-svgrepo-com.svg" alt="sarasa whatsapp" />
         </div>
+            <h2 className="footer__icons">Tel.: 0220 4828807</h2>
     </div>
 
 )

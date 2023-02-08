@@ -3,5 +3,21 @@
 
 #footer__container {
     width: 100vw;
-    background-color: rgb(255, 197, 120);
+    background-color: rgb(255, 212, 157);
+    display: flex;
+    flex-direction: row;
+
+}
+
+
+#footer__spaces {
+    width: 60vw;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+}
+
+.footer__icons {
+    width: 4em;
+    margin: 1em;
 }

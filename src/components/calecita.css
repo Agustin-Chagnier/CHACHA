@@ -1,0 +1,17 @@
+
+
+
+.menu__pages {
+    display: flex;
+    flex-direction: row;
+    background-color: brown;
+    justify-content: center;
+}
+
+.menu__pages--box {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(42, 165, 104);
+    justify-content: center;
+    margin: 2em;
+}

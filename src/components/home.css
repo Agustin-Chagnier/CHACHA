@@ -5,7 +5,8 @@
 #home__container {
     display: flex;
     justify-content: center;
-    size: 19em;
+    width: 100vw;
+    height: 60vh;
     background-color: rgb(243, 235, 235);
     
 

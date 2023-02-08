@@ -15,6 +15,7 @@ import Historia from "./components/Historia.js"
 import Info from "./components/Info.js"
 import Footer from "./components/Footer.js"
 import Home from "./components/Home.js"
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 function App() {
@@ -32,7 +33,7 @@ function App() {
 
 
     
-  <BrowserRouter>
+  <BrowserRouter id="browser__router">
     <NavBar links={links}/>
     <Routes>
         
@@ -45,7 +46,7 @@ function App() {
     </Routes>
 
 
-    <Footer/>
+    <Footer id="Footer__comp" />
 
   </BrowserRouter>
 
