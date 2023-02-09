@@ -12,7 +12,7 @@ return (
             <img className="footer__icons" src="/assets/facebook-svgrepo-com.svg" alt="sarasa facebook" />
             <img className="footer__icons" src="/assets/whatsapp-svgrepo-com.svg" alt="sarasa whatsapp" />
         </div>
-            <h2 className="footer__icons">Tel.: 0220 4828807</h2>
+            <h2 className="footer__icons">0220-4828807</h2>
     </div>
 
 )

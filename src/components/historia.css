@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Cookie&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cookie&family=Varela+Round&display=swap');
+
+
+#historia__envelope {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+#historia__box {
+    display: flex;
+    justify-content: center;
+    text-justify: auto;
+    width: 50%;
+    margin: 2em;
+    border: solid 2px black;
+    border-radius: 2em;
+}
+
+
+#historia__text {
+
+    font-family: 'Varela Round', sans-serif;
+    font-size: 1.2em;
+    margin: 1em;
+}
