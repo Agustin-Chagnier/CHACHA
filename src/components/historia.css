@@ -17,6 +17,7 @@
     margin: 2em;
     border: solid 2px black;
     border-radius: 2em;
+    background-color: antiquewhite;
 }
 
 
@@ -25,4 +26,6 @@
     font-family: 'Varela Round', sans-serif;
     font-size: 1.2em;
     margin: 1em;
+    text-align: justify;
+    
 }
