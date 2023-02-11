@@ -8,29 +8,18 @@ function Calecita() {
     <Carousel fade>
       <Carousel.Item>
         <div className="menu__pages">
-          <div className="menu__pages--box">
-          <h2>SARASA 1</h2>
-          <h3></h3>
-          </div>
+          <img id="menu__img" src="/assets/pastas.png" />
         </div>
       </Carousel.Item>
       <Carousel.Item>
-      <div className="menu__pages">
-          <div className="menu__pages--box">
-          <h2>SARASA 4</h2>
-          <h2>SARASA 5</h2>
-          <h2>SARASA 6</h2>
-          </div>
-      </div>
+        <div className="menu__pages">
+          <img id="menu__img" src="/assets/empanadas.png" />
+        </div>
       </Carousel.Item>
       <Carousel.Item>
-      <div className="menu__pages">
-          <div className="menu__pages--box">
-          <h2>SARASA 7</h2>
-          <h2>SARASA 8</h2>
-          <h2>SARASA 9</h2>
-          </div>
-      </div>
+        <div className="menu__pages">
+          <img id="menu__img" src="/assets/otros.png" />
+        </div>
       </Carousel.Item>
     </Carousel>
   );

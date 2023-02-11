@@ -6,6 +6,7 @@
     flex-direction: row;
     background-color: brown;
     justify-content: center;
+    
 }
 
 .menu__pages--box {
@@ -14,4 +15,8 @@
     background-color: rgb(42, 165, 104);
     justify-content: center;
     margin: 2em;
+}
+
+#menu__img {
+    width: 65%;
 }
